@@ -5,10 +5,17 @@
   <i>Homebrew</i>
 </h1>
 
-[SecretHub](https://secrethub.io)'s [Homebrew tap](https://docs.brew.sh/Taps) listing all of our tools that can be installed using Homebrew.
+[SecretHub][secrethub]'s [Homebrew tap][brew-tap] listing all of the SecretHub tools that can be installed using Homebrew.
+
+> [SecretHub][secrethub] is a developer tool to help you keep database passwords, API tokens, and other secrets out of IT automation scripts. 
+
 
 ## Available tools
 
-| Name | Installation command |
-|------|----------------------|
-| CLI | `brew install secrethub/tools/cli` |
+| Name | Description | Installation command |
+|------|-------------|----------------------|
+| [CLI][cli] | Command-line interface for SecretHub | `brew install secrethub/tools/cli` |
+
+[secrethub]: https://secrethub.io
+[brew-tap]: https://docs.brew.sh/Taps
+[cli]: https://github.com/secrethub/secrethub-cli
