@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://secrethub.io/img/secrethub-logo.svg" alt="SecretHub" width="400px"/>
+  <a href="https://secrethub.io">
+    <img src="https://secrethub.io/img/secrethub-logo.svg" alt="SecretHub" width="400px"/>
+  </a>
 </p>
 <h1 align="center">
   <i>Homebrew</i>
 </h1>
 
-[SecretHub][secrethub]'s [Homebrew tap][brew-tap] listing all of the SecretHub tools that can be installed using Homebrew.
+[SecretHub][secrethub]'s [Homebrew tap][brew-tap] listing the tools that can be installed using Homebrew.
 
 > [SecretHub][secrethub] is a developer tool to help you keep database passwords, API tokens, and other secrets out of IT automation scripts. 
 
