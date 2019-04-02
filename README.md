@@ -16,7 +16,7 @@
 
 | Name | Description | Installation command |
 |------|-------------|----------------------|
-| [CLI][cli] | Command-line interface for SecretHub | `brew install secrethub/tools/cli` |
+| [secrethub-cli][cli] | Command-line interface for SecretHub | `brew install secrethub/tools/secrethub-cli` |
 
 [secrethub]: https://secrethub.io
 [brew-tap]: https://docs.brew.sh/Taps
