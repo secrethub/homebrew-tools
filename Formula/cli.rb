@@ -7,6 +7,6 @@ class Cli < Formula
   sha256 "47e9d8ce2478612d72914cd8a2b3273df11c951795878007f00d27867e4b842b"
 
   def install
-    bin.install "bin/{{ .ProjectName }}"
+    bin.install "bin/secrethub"
   end
 end
