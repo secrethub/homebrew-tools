@@ -2,9 +2,9 @@
 class SecrethubCli < Formula
   desc "Command-line interface for SecretHub"
   homepage "https://secrethub.io"
-  url "https://github.com/secrethub/secrethub-cli/releases/download/v0.22.0/secrethub-v0.22.0-darwin-amd64.tar.gz"
-  version "0.22.0"
-  sha256 "f4f14288cdf6d57e81d2e352eaa9b8d21dfb3a70bc7d832090de46c23a4baf2e"
+  url "https://github.com/secrethub/secrethub-cli/releases/download/v0.23.0/secrethub-v0.23.0-darwin-amd64.tar.gz"
+  version "0.23.0"
+  sha256 "defe7208b51303e9fee4b81894bdf5245f49b93039e11e1954d9dac654492098"
 
   def install
     bin.install "bin/secrethub"
