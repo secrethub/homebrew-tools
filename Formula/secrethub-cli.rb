@@ -17,6 +17,5 @@ class SecrethubCli < Formula
 
   def install
     bin.install "bin/secrethub"
-    bin.install "secrethub"
   end
 end
