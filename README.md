@@ -9,7 +9,7 @@
 
 [SecretHub][secrethub]'s [Homebrew tap][brew-tap] listing the tools that can be installed using Homebrew.
 
-> [SecretHub][secrethub] is a developer tool to help you keep database passwords, API tokens, and other secrets out of IT automation scripts. 
+> [SecretHub][secrethub] is a secrets management tool that works for every engineer. Securely provision passwords and keys throughout your entire stack with just a few lines of code.
 
 
 ## Available tools
