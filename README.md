@@ -7,7 +7,7 @@
   <i>Homebrew</i>
 </h1>
 
-[SecretHub][secrethub]'s [Homebrew tap][brew-tap] listing the tools that can be installed using Homebrew.
+SecretHub's [Homebrew tap][brew-tap] listing the tools that can be installed using Homebrew.
 
 > [SecretHub][secrethub] is a secrets management tool that works for every engineer. Securely provision passwords and keys throughout your entire stack with just a few lines of code.
 
