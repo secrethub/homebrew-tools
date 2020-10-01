@@ -2,24 +2,24 @@
 class SecrethubCli < Formula
   desc "Command-line interface for SecretHub"
   homepage "https://secrethub.io"
-  version "0.41.1"
+  version "0.41.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.1/secrethub-v0.41.1-darwin-amd64.tar.gz"
-    sha256 "cfdc10dc1c5a3456b5c059a22c9e889a4f0f4a0f75e57d4db914c9a02856fe4b"
+    url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.2/secrethub-v0.41.2-darwin-amd64.tar.gz"
+    sha256 "b36646a0818927f0ec9df519a359c5c350d6e5b95b16ddfb6ef5ba6adf413695"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.1/secrethub-v0.41.1-linux-amd64.tar.gz"
-      sha256 "574159b577c614daae10a61ae3645a52d7f54d26272bbd5be6739477afc02ccd"
+      url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.2/secrethub-v0.41.2-linux-amd64.tar.gz"
+      sha256 "8d2de1c681a3d19a9914f0dc59c401c65877ca8dd0d047d69dc3cc5856bd985e"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.1/secrethub-v0.41.1-linux-arm64.tar.gz"
-        sha256 "f80e1f354622fd3b529988e6fa544e4b63df78905dc446a9f4c641c31e1aa004"
+        url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.2/secrethub-v0.41.2-linux-arm64.tar.gz"
+        sha256 "e193965b358fed3dd022a825e21473ccb7911340b43fc272379bd131d470f251"
       else
-        url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.1/secrethub-v0.41.1-linux-armv6.tar.gz"
-        sha256 "e2b17236f8c590aaf296f08c86cf8e8fd117e15a700d95b143a3837c7162cda7"
+        url "https://github.com/secrethub/secrethub-cli/releases/download/v0.41.2/secrethub-v0.41.2-linux-armv6.tar.gz"
+        sha256 "7d1a36d25218299b32f4c663421f13004cdef353a668c87d9fef5a1d66827f04"
       end
     end
   end
