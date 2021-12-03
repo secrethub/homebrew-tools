@@ -3,7 +3,6 @@ class SecrethubCli < Formula
   desc "Command-line interface for SecretHub"
   homepage "https://secrethub.io"
   version "0.43.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/secrethub/secrethub-cli/releases/download/v0.43.0/secrethub-v0.43.0-darwin-amd64.tar.gz"
